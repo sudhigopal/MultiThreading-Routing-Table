@@ -8,5 +8,4 @@ Please make sure to edit the bashtr.sh file with your directory path and run sh 
 
 You can edit the bashTr file for any number of host.
 
-In order to reduce flooding, I have set the TTL to approximate diameter of the network, which is the longest shortest path.
-
+Here each Host reads its own Routing table and then send the packets to its specified nextHop
